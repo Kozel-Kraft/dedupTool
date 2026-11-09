@@ -14,6 +14,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!-- The exercise sample and its hand-written expected output, used by the end-to-end tests. -->
+    <None Include="../../data/batch-sample.json" Link="Data/batch-sample.json" CopyToOutputDirectory="PreserveNewest" />
+    <None Include="Data/sample-expected.csv" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="../../src/DedupTool/DedupTool.csproj" />
   </ItemGroup>
 
